@@ -1,0 +1,78 @@
+/* font-weight mapping
+---------------------------
+	 Light - 400
+	Medium - 500
+	  Bold - 700
+	 Black - 900
+---------------------------*/
+
+/* Antenna Light */
+@font-face {
+	font-family: 'Antenna';
+	src: url('../fonts/917ebc26-70c2-413f-ae09-709f01918831-3.woff') format('woff'),
+			 url('../fonts/917ebc26-70c2-413f-ae09-709f01918831-1.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+/* Antenna Medium */
+@font-face {
+	font-family: 'Antenna';
+	src: url('../fonts/a875a3f9-0b56-4a09-b66e-c3033898bcd5-3.woff') format('woff'),
+			 url('../fonts/a875a3f9-0b56-4a09-b66e-c3033898bcd5-1.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+
+/* Antenna Medium Italic */
+@font-face {
+	font-family: 'Antenna';
+	src: url('../fonts/c63f3f99-f97d-4020-9c1e-a4bf0c229416-3.woff') format('woff'),
+			 url('../fonts/c63f3f99-f97d-4020-9c1e-a4bf0c229416-1.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 500;
+}
+
+/* Antenna Bold */
+@font-face {
+	font-family: 'Antenna';
+	src: url('../fonts/3f394e84-2940-4425-9a52-22a92e107262-3.woff') format('woff'),
+			 url('../fonts/3f394e84-2940-4425-9a52-22a92e107262-1.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+
+/* Antenna Bold legacy */
+@font-face {
+	font-family: 'Antenna Bold';
+	src: url('../fonts/3f394e84-2940-4425-9a52-22a92e107262-3.woff') format('woff'),
+	url('../fonts/3f394e84-2940-4425-9a52-22a92e107262-1.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+
+/* Antenna Black */
+@font-face {
+	font-family: 'Antenna';
+	src: url('../fonts/031f39a3-3234-4656-bde4-a2b1939510ff-3.woff') format('woff'),
+			 url('../fonts/031f39a3-3234-4656-bde4-a2b1939510ff-1.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 900;
+}
+
+/* Antenna Black legacy*/
+@font-face {
+	font-family: 'Antenna Black';
+	src: url('../fonts/031f39a3-3234-4656-bde4-a2b1939510ff-3.woff') format('woff'),
+	url('../fonts/031f39a3-3234-4656-bde4-a2b1939510ff-1.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+
+
+
+/* Antenna post-css css-next variables */
+:root {
+	--fsFont-primary: 'Antenna', 'Helvetica Neue', Arial, sans-serif;
+	--fsFont-primary-cond: 'Antenna Condensed', 'Arial Narrow', Arial, sans-serif;
+}

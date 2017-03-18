@@ -1,0 +1,15 @@
+/* _media-queries.css
+********************************************/
+@custom-media --small          (width <= 1023px);
+@custom-media --mobile         (width <= 767px);
+@custom-media --tablet         (width >= 768px) and (width <= 1023px);
+@custom-media --laptop         (width >= 1024px) and (width <= 1279px);
+@custom-media --desktop        (width >= 1280px);
+@custom-media --tablet-desktop (width >= 768px);
+
+@custom-media --at-least-tablet  (min-width: 768px);
+@custom-media --at-least-laptop  (min-width: 1024px);
+@custom-media --at-least-desktop (min-width: 1280px);
+
+@custom-media --heavy-admin-bar (min-width: 601px);
+@custom-media --light-admin-bar (min-width: 783px);
